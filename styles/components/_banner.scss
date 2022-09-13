@@ -1,0 +1,53 @@
+.maxbanner {
+  height: 500px;
+  padding-top: 100px;
+  .banner {
+    width: 100%;
+    height: 301.2px;
+    position: absolute;
+    &::after {
+    }
+
+    .banner-ig {
+      display: block;
+      background-image: url("/image/banner-bg.jpg");
+      object-fit: cover;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      width: 100%;
+      height: 100%;
+    }
+    .banner-text {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+
+      ul {
+        font-family: "Poppins";
+        display: flex;
+        text-align: center;
+        align-items: center;
+        li {
+          width: auto;
+          padding-right: 40px;
+
+          margin-right: 4px;
+          color: white;
+
+          h1 {
+            font-size: 7vh;
+            font-weight: bold;
+          }
+          h2 {
+            font-size: 50px;
+          }
+          h4 {
+            padding-top: 20px;
+            font-size: 30px;
+          }
+        }
+      }
+    }
+  }
+}

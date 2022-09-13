@@ -1,0 +1,63 @@
+.services {
+  padding: 10vh 0vh 10vh 0vh;
+  background-color: #f8f8f8;
+
+  h2 {
+    font-size: 40px;
+    color: #505060;
+    padding-bottom: 5vh;
+    text-align: center;
+    font-family: "Poppins";
+    font-weight: bold;
+  }
+  .title {
+    font-size: 25px;
+    color: #181818;
+    padding: 20px 0;
+  }
+  .description {
+    font-size: 20px;
+  }
+  p {
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .our-services {
+    .text__ {
+    }
+    ul {
+      text-align: center;
+      display: flex;
+
+      li {
+        padding-bottom: 20px;
+        width: 24%;
+        .icon {
+          margin-bottom: 20px;
+          width: 70px;
+          height: 70px;
+          border: 1px solid rgb(176, 176, 176);
+          border-radius: 50%;
+          display: inline-flex;
+          justify-content: center;
+          align-items: center;
+          // &:hover {
+          //   background-color: red;
+          // }
+          // .bsl {
+          //   font-size: 30px;
+          //   color: white;
+          // }
+        }
+        h1 {
+          margin-bottom: 20px;
+          font-size: 40px;
+        }
+        .title-services {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}

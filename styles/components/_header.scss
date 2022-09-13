@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Anton&family=Luckiest+Guy&family=Roboto:wght@500&display=swap");
+
+.fixedd {
+  background-color: rgb(33, 33, 33);
+  transition: 0.3s ease-in-out;
+  box-shadow: 5px 5px 10px 5px rgb(210, 210, 210);
+  ul {
+    li {
+      a {
+        color: rgb(255, 255, 255) !important;
+        &.active {
+          color: rgb(255, 255, 255) !important;
+          padding: 5px 10px;
+        }
+      }
+    }
+  }
+}
+
+.header {
+  font-family: "Poppins";
+  z-index: 5;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 100px;
+  padding-top: 30px;
+  display: flex;
+
+  background-image: url("/public/image/bg.jpg");
+
+  .menu {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    width: 1140px;
+    justify-content: space-around;
+
+    ul {
+      margin-left: 9rem;
+      display: flex;
+      text-align: center;
+      width: 922px;
+      li {
+        padding-right: 30px;
+        cursor: pointer;
+
+        a {
+          list-style: none;
+          text-decoration: none;
+          color: white;
+          font-family: "Poppins";
+
+          &.active {
+            color: white;
+            background-color: #5e87eb;
+            border-radius: 30px;
+            padding: 5px 10px;
+            border: 2px solid white;
+          }
+        }
+        p {
+          color: white;
+        }
+      }
+      .language {
+        cursor: pointer;
+      }
+    }
+  }
+}

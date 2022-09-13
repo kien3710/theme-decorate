@@ -1,0 +1,21 @@
+@import "./reset/reset";
+@import "./components/header";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,700&display=swap");
+@import "/styles/components/home";
+@import "/styles/components/aboutus";
+@import "/styles/components/services";
+@import "/styles/components/choose";
+@import "/styles/components/banner";
+@import "/styles/components/slick";
+@import "/styles/components/member";
+@import "/styles/components/sliderbg";
+@import "/styles/components/outpanner";
+@import "/styles/components/footer";
+@import "/styles/components/backtotop";
+@import "/styles/components/portfolio";
+@import "/styles/components/technology";
+@import "/styles/components/[id]";
+
+.web {
+  font-family: "Poppins", sans-serif;
+}

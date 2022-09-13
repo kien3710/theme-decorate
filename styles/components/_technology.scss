@@ -1,0 +1,45 @@
+.tech-text {
+  padding-top: 60px;
+  h1 {
+    padding: 30px;
+    font-size: 40px;
+    color: rgb(44, 44, 44);
+    font-weight: bold;
+    text-align: center;
+  }
+  .cc {
+    padding: 20px 0 20px 0;
+    text-align: center;
+  }
+}
+.item-text {
+  h4 {
+    font-size: 17px;
+    font-weight: bold;
+  }
+}
+
+.col-8 {
+  display: flex;
+  flex-wrap: wrap;
+  .tech-item {
+    width: 50%;
+    display: flex;
+    .item-icon {
+      .img {
+        width: 30px;
+        height: 30px;
+        object-fit: cover;
+      }
+    }
+    .item-text {
+      padding-left: 20px;
+    }
+  }
+}
+.col-4 {
+  width: 300px;
+  height: 500px;
+  background-size: cover;
+  background-image: url("../../public/image/feature.webp");
+}

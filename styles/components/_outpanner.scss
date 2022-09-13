@@ -1,0 +1,21 @@
+.outpanner {
+  height: 600px;
+  .text {
+    text-align: center;
+    padding: 10vh 0 10vh 0;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: "Poppins";
+  }
+  .panner {
+    width: 100%;
+    height: 200px;
+
+    img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+  }
+}

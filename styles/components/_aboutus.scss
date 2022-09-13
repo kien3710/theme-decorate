@@ -1,0 +1,44 @@
+.aboutus {
+  display: flex;
+  padding-top: 15vh;
+  .item {
+    width: 50%;
+  }
+  .about-image {
+    background: url("/image/aboutus.jpg");
+    width: 540px;
+    height: 360px;
+    background-position: center;
+  }
+  .text {
+    p {
+      padding-bottom: 20px;
+      &:first-child {
+        color: #5e87eb;
+        font-weight: bold;
+        font-size: 17px;
+      }
+      &:nth-child(2) {
+        font-size: 27px;
+        font-weight: bold;
+      }
+      &:last-child {
+        color: #5e87eb;
+      }
+    }
+    .backdrop {
+      h1 {
+        font-size: 15vh;
+        height: 100%;
+        display: block;
+
+        font-weight: 900;
+
+        text-transform: uppercase;
+
+        color: black;
+        mix-blend-mode: multiply;
+      }
+    }
+  }
+}

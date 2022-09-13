@@ -1,0 +1,58 @@
+.buttons {
+  .btn {
+    &.cc {
+      font-family: "Poppins";
+      color: white;
+      background-color: #5e87eb;
+      border: 1px solid #5e87eb;
+    }
+  }
+}
+.port {
+  text-align: center;
+}
+.col-lg-3 {
+  z-index: 3;
+  overflow: hidden;
+
+  .img {
+    cursor: pointer;
+    position: relative;
+    z-index: 11;
+    transition: transform 0.5s ease;
+    &:hover {
+      opacity: 0.3;
+      background: black(0.5);
+    }
+
+    &:hover .eye {
+      display: block;
+    }
+    .eye {
+      color: #5e87eb;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      display: none;
+      z-index: 4;
+      transition: 1s;
+      font-size: 40px;
+    }
+    .overlayportfolio {
+      background-color: black;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      z-index: 100;
+    }
+  }
+}
+.title_portfolio {
+  text-align: center;
+}
+.portfolio_all {
+  padding-top: 50px;
+}

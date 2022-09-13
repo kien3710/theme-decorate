@@ -1,0 +1,84 @@
+.footer {
+  .icon {
+    a {
+      text-decoration: none;
+      color: white;
+      .item_icon {
+        margin-right: 2px;
+      }
+    }
+
+    font-size: 50px;
+  }
+  z-index: 10;
+  padding: 5vh 0 0 0;
+  background-color: #282832;
+  height: 750px;
+  width: 100%;
+  ul {
+    display: flex;
+
+    li {
+      padding: 10px;
+      .text-contact {
+        font-size: 50px;
+        font-weight: bold;
+        font-family: "Poppins";
+        padding: 0 0 20px 0;
+      }
+      p {
+        font-size: 20px;
+        font-family: "Poppins";
+      }
+      color: white;
+
+      width: 50%;
+
+      margin: 0 10px 0 0;
+      .phone {
+        padding: 10px 0;
+        a {
+          color: white;
+          text-decoration: none;
+        }
+      }
+      .email {
+        a {
+          color: white;
+          text-decoration: none;
+        }
+      }
+    }
+    form {
+      label {
+      }
+      input {
+        margin: 20px 0;
+        padding: 20px;
+        width: 70vh;
+        background-color: transparent;
+        border: 2px solid #5e87eb;
+        &:last-child {
+          padding-bottom: 200px;
+        }
+      }
+    }
+    button {
+      text-align: center;
+      padding: 20px 30px;
+      border-radius: 30px;
+
+      color: white;
+      background-color: #5e87eb;
+      h1 {
+        font-size: 20px;
+      }
+
+      cursor: pointer;
+      &:hover {
+        background-color: #33b391;
+        transition: 1s;
+      }
+    }
+  }
+}
